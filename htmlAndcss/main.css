@@ -1,0 +1,47 @@
+#first-id {
+    color: aqua;
+    font-size: 35px;
+} 
+.huong {
+    color: bisque;
+    font-size: 34px;
+}
+.index p {
+    color: rgb(71, 16, 100);
+    font-size: 25px;
+}
+:root {
+    --color : red;
+}
+.var h1 {
+    color: var(--color);
+    font-size: 25px;
+}
+.var h2 {
+    --color2 : gray;
+    color : var(--color2);
+}
+.box {
+    width: 60px;
+    height: 60px;
+    color: aliceblue;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    background-color: black;
+    margin-bottom: 10px;
+}
+.box2 { 
+    background-image: url(https://i.pinimg.com/564x/11/65/36/116536f30513a3888a15e53c738ec21e.jpg);
+    padding: 10px 8px 10px;
+    border-width: 12px ;
+    border-style:solid;
+    background-size: 100%;
+    border-color: blueviolet;
+}
+.box3 { 
+    background-color: aqua;
+    padding-right: 12px;
+}

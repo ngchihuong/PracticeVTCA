@@ -1,0 +1,21 @@
+#first-heading {
+    color: red ;
+    font-size: 25px;
+   } 
+  
+  .second-heading {
+    color: green;
+    font-size: 25px;
+  }
+  :root {
+    --text-color: pink;
+
+  }
+  h1 { 
+    --my-color: blue;
+    color: var(--text-color);
+  }
+  h2 {
+    color:var(--text-color);
+  }
+

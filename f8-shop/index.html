@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <!-- Phần đầu -->
+    <head>
+        <title> APL - 2022 . Gải đấu AOV </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+
+        <style>
+            html {
+                font-size: 25px;
+            }
+            .box {
+                width: 50px;
+                height: 50px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                float: left;
+            }
+            .box1 {
+                width: calc( 10% + 20px );
+                height: 20vh;
+                background-color: rgb(223, 206, 178);
+                margin: 10px 20px 15px;   
+            }
+            .box2 {
+                width: 60px;
+                height: 20vh;
+                float: right;
+                background-color: red;
+                padding: 10px 11px 12px 13px;
+                border-top: 10px solid black;
+                margin-right: 850px;
+                margin-top: 20px;
+            }
+            .box3 {
+                width: 60px;
+                height: 20vh;
+                background-color: violet;
+                padding: 10px 8px 12px;
+                border-width: 15px ;
+                border-style: solid ;
+                border-color: pink;
+                margin-top: 10px;
+                margin-left: 20px;
+
+            }
+            h1 {
+                color: green ;
+                font-size: 1em;
+               } 
+               .box1::after {
+                content: " box1 ";
+               }
+               .box2::after {
+                content: " box 2 ";
+               }
+               .box3::after {
+                content: " box3 ";
+               }
+            a::after {
+                content: "("attr(href)")";
+            }
+        </style>
+    </head>
+
+    <!-- Phần thân -->
+    <body>
+        <div class="box" data-title=" box "></div>
+        <div class="box1" data-title=" box1 !"></div>
+        <div class="box2" data-title=" box2 !"></div>
+        <div class="box3" data-title=" box3 !"></div>
+        <a href="http://127.0.0.1:5500/index.html"> Trang web giải đấu APL (http://127.0.0.1:5500/index.html) </a>
+        <div>
+            <h1 id="first-heading"> APL 2022 sẽ được tổ chức offline tại Thành phố Hồ Chí Minh </h1>
+            <button>Theo dõi trang chính thức Cao Thủ Liên Quân</button>
+            <p> APL 2022 sẽ được tổ chức offline tại Thành phố Hồ Chí Minh, khởi tranh ngày 16/11
+                🗞 Giải đấu quốc tế APL 2022 sẽ chính thức quay trở lại vào ngày 16 tháng 11 dưới hình thức offline tại thành phố Hồ Chí Minh, quy tụ 12 đội tuyển hàng đầu đến từ Đấu Trường Danh Vọng (AOG - Việt Nam), AOV Star League (ASL - Indonesia), Garena Challenger Series (GCS - Đài Bắc Trung Hoa) và ROV Pro League (RPL - Thái Lan), mỗi Giải đấu quốc nội sẽ có 3 suất tham dự để cạnh tranh cho chức vô địch APL 2022 danh giá. 
+                🗞 3 đại diện của Việt Nam tham dự bao gồm Saigon Phantom, V Gaming và Box Gaming. Theo dự kiến, vòng Chung kết của giải đấu sẽ diễn ra trên sân khấu lớn vào ngày 11 tháng 12.
+                #APL2022 </p>
+                <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/290695161_2247111612111317_5008810930727518400_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=HTW6wnI-OEkAX-hASob&_nc_ht=scontent.fhan18-1.fna&oh=00_AfAp_0kOBo3p4npmofhEwEbi2TjH5I_1SSlz9kYbSsGz_A&oe=636BBD34" alt=" Ảnh Quang Hải "> 
+                <a href="<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FcaothuLQM%2Fposts%2Fpfbid0WwgkTMq19z3WThBFPGmbA47bQsgPWEmA6GokHj9QLHLXcP7eznFf1nsXHtkvxdB1l&show_text=true&width=500" width="500" height="514" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>"> Tới bài viết gốc Cao Thủ Liên Quân </a> 
+                <a href="<iframe src=https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FcaothuLQM%2Fposts%2Fpfbid02PwXpuBRuH6Rbncryvr6D6tectKuCEEw61VMDjBKF1fc2g5LHmw9H1Yaiztom6wE1l&show_text=true&width=500" width="500" height="520" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>"> Xem lộ trình thi đấu APL 2022 </a>
+                <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-1/304971140_851700745821041_55394907154680850_n.jpg?stp=cp6_dst-jpg_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_ohc=QnPKHYHujR8AX8pO27J&_nc_oc=AQmHe61H7xoyDJjI0sq6vBCrT9si8zpF2CqDmZHhUFpHmoRlNzGpQX7aFqoRVJVl9EU&tn=X8G3ApCEEXO_99h7&_nc_ht=scontent.fhan18-1.fna&oh=00_AfBhpus0-2qJAeU-FPGcNNxHFg9zYhWXuffh1zUwApqIfg&oe=636C7F4F" alt=" Nguyễn Văn Hưng" width="70%" height="30%"/> 
+
+                <UL>
+                    <li> Cao Thủ Liên Quân </li>
+                    <li> Giải đấu quốc tế Arena Of Valor </li>
+                    <li> APL 2022 </li>
+                </UL>
+        
+                <table>
+                    <thead>
+                        <th>Nước tham gia</th>
+                        <th>Địa Điểm</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>VN</td>
+                        <td>TPHCM</td>  
+                        </tr>
+                        <tr>
+                            <td>THAI</td>
+                            <td>TPHCM</td>
+                        </tr>
+                        <tr>
+                            <td>TW</td>
+                            <td>TPHCM</td>
+                        </tr>
+                        <tr>
+                            <td>IDN</td>
+                            <td>TPHCM</td>
+                        </tr>
+                    </tbody>
+                </table>
+             <h1 class="second-heading"> CSS1 </h1>
+             <h1 class="second-heading"> CSS2 </h1>
+             <h2>  css </h2>
+             <h2> css2 </h2>
+             <h2> css3 </h2>  
+             <ul>
+                <li> Nguyễn Văn Hưng</li>
+                <li> Nguễn Thị Huấn</li>
+                <li> Nguyễn Duy Thiềm </li>
+             </ul>   
+        </div>
+    </body>
+</html>

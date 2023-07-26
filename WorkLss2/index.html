@@ -1,0 +1,88 @@
+<!-- Tìm hiểu về các input(4): 
+các type của input-->
+<!-- Nhập liệu thông tin 1 bạn hs về: họ tên , sdt . địa chỉ , email , giới tính , ngày sinh , lớp , mô tả bản thân , ảnh chân dung 
+    , file cv , đánh giá xếp loại hạnh kiểm , thời gian bắt đầu học , thời gian kết thúc , 3 nút bấm : thoát , submit , reset -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form align="center">
+        <label for="txthoten">Enter your name: </label>
+        <input type="text" name="" id="txthoten" placeholder="Enter name"> 
+        <br>
+        <label for="telphone">Enter your phone number: </label>
+        <input type="tel" id="telphone"placeholder="Enter phone number">
+        <br>
+        <label for="txtaddress">Enter Your Address: </label>
+        <input type="text" name="" id="txtaddress" placeholder="Enter your address">
+        <br>
+        <label for="txtemail">Enter Your Email: </label>
+        <input type="email" name="" id="email" placeholder="Enter your email">
+        
+        <br>
+        <label for="">Select Gender </label> <br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>  
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br>
+
+        <br>
+        <label for="class">Choose a class!</label>
+        <select name="class" id="class">
+            <optgroup label="Program class">
+                <option value="pf1305">PF1305</option>
+                <option value="pf1304">PF1304</option>
+                <option value="pf1303">PF1303</option>
+            </optgroup>
+            <optgroup label="Art class">
+                <option value="af1305">AF1305</option>
+                <option value="af1304">AF1305</option>
+                <option value="af1303">AF1303</option>
+            </optgroup>
+            <optgroup label="Marketing class">
+                <option value="mf1305">MF1305</option>
+                <option value="mf1304">MF1304</option>
+                <option value="mf1303">MF1303</option>
+            </optgroup>
+        </select> <br> <br>
+        <br>
+        <label for="">Enter Your Address: </label>
+        <input type="text" name="" id="txtaddress" placeholder="Enter your address">
+        <br>
+        <textarea name="description" id="" cols="30" rows="10">
+            Description!
+        </textarea>
+        <br>
+        <input type="image" src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/363302325_304550218756943_4434898517562797114_n.jpg?stp=dst-jpg_p843x403&_nc_cat=108&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=Y6_3IWg5p5AAX9FxCU-&_nc_ht=scontent.fhan3-3.fna&oh=00_AfDe4KR6DSVhWdXjwPrQF1pX25NVYcS1ZfBbhO31_LkqBw&oe=64C667DD">
+        <br>
+        <input type="file">
+        <br>
+        <label for="">Choose a rank!</label>
+        <br>
+        <input type="radio" name="hanhkiem" id="tot" value="Tot">
+        <label for="hanhkiem" >Tốt</label>
+        <input type="radio" name="hanhkiem" id="kha" value="Kha">
+        <label for="hanhkiem">Khá</label>
+        <input type="radio" name="hanhkiem" id="trungbinh">
+        <label for="hanhkiem">Trung Bình</label>
+        <br>
+        <label for="start">Thời gian bắt đầu: </label>
+        <input type="date" name="start" id="start">
+        <br>
+        &nbsp;
+        <br>
+        <label for="last">Thời gian kết thúc</label>
+        <input type="date" name="last" id="last">
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" name="Reset">
+        <input type="button" value="Out"> 
+    </form>
+</body>
+</html>
